@@ -1,0 +1,49 @@
+@media (max-width:810px)
+{
+   body
+   {
+    width: 100vw;
+    overflow-x:hidden ;
+   }
+   
+   
+    .main h1
+    {
+        font-size: 7vw;
+        padding-top: 4vh;
+    }
+    .main .screen
+    {
+        left: 0;
+        width: 100vw;
+    }
+   
+
+#gamebody #bubble
+{
+    height: 25px;
+    width: 25px;
+
+}
+#gamebody
+{
+    overflow: hidden;
+}
+#gamebody h2
+{
+    font-size: 6vw;
+    margin-left: 33px;
+    margin-top: 4vh;
+}
+.score-nav .parameters .box
+{
+    right: 10%;
+}
+
+
+.score-nav .parameters
+{
+    font-size: 2vh;
+    margin-left: 10px;
+}
+}

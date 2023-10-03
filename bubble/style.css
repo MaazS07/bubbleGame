@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    max-height: 100vh;
+    width: 100vw;
+    background:linear-gradient(yellow,rgb(229, 229, 164));
+
+}
+.main h1{
+    text-align: center;
+    font-size: 15vh;
+    color: green;
+    text-transform: capitalize;
+    
+}
+
+.main .screen {
+    position: relative;
+    
+    left: 25%;
+    /* display: flex; */
+    height: 75%;
+    width: 50%;
+    background-color: aquamarine;
+
+}
+
+.score-nav {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color: azure;
+    color: black;
+    height: 10%;
+    width: 99%;
+    border:2px solid black;
+}
+
+.score-nav .parameters {
+    /* background-color:pink; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: azure;
+    color: black;
+    font-size: 3vh;
+    height: 5vh;
+    width: 100%;
+    text-transform: capitalize;
+
+
+}
+
+.score-nav .parameters .box {
+    position: relative;
+    top: 5%;
+    right: 20%;
+}
+
+#gamebody {
+    background-color: rgb(31, 56, 4);
+    height: 95%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border:2px solid white;
+    
+
+}
+
+#gamebody #bubble {
+    border-radius: 50%;
+    background-color:yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    position: relative;
+    left: 2%;
+    width: 35px;
+    font-size: 3vh;
+    font-weight: bolder;
+    color:black;
+    border-color: 2px solid  white;
+    box-shadow: 1px 1px 1px white;
+    margin: 1vh;
+
+}
+#hitt,#timmerr,#scoree
+{
+    font-weight: bolder;
+}
+#gamebody #bubble:hover
+{
+scale: 1.4;
+color: black;
+background-color:white;
+border-color: 2px solid  white;
+    box-shadow: 2px 2px 2px rgb(12, 12, 12);
+}
+h1
+{    margin-left: 29px;
+      position: relative;
+    text-align: center;
+    /* z-index: 1; */
+    font-size: 150px;
+    color: yellow;
+  
+}
+h2{
+  color: rgb(67, 34, 34);
+  font-size: 100px;
+  margin-left: 110px;
+}
+
+
